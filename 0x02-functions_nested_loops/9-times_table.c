@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * times_table - prints the 9 times table starting with 0
- * Return: void
  */
 void times_table(void)
 {
@@ -13,7 +12,7 @@ void times_table(void)
 		for (k = 0 ; k < 10 ; k++)
 			result = i * k;
 		{
-			if (i == 0)
+			if (k == 0)
 			printf("%d, ", result);
 				else
 				{

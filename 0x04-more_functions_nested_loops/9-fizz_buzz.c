@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints number from 1 to 100
- * Return: Fizz, Buzz, Fizzbuzz
+ * Return: 0
  */
 int main(void)
 {
